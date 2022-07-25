@@ -12,7 +12,8 @@ function StockList({symbol, name}) {
     <p className="text-lg font-semibold">{symbol}</p>
     </div>
     <div className="pt-4 col-span-3">
-    <p className="text-xl ">{name.substring(0,25)}</p>
+
+    <p className="text-xl">{name.substring(0,30)}..</p>
     </div>
     <div className="pt-4 pr-4 text-right cursor-pointer">
     <p>Delete</p>
