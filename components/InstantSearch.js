@@ -21,7 +21,7 @@ function InstantSearch() {
           placeholder="symbol e.g. AAPL"
           onChange={(e) => setQSInput(e.target.value.toUpperCase())}
         />
-        <SearchIcon className="w-10 h-10" onClick={quickSearch} />
+        <SearchIcon className="w-10 h-10 cursor-pointer" onClick={quickSearch} />
       </div>
       {result ? (
         <div>
